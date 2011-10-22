@@ -1,4 +1,4 @@
-THIS ISN'T REAL, YET.
+# THIS ISN'T REAL, YET.  RUN AWAY.
 
 ## BrowserID Authenticated Sessions for Connect
 
