@@ -13,6 +13,7 @@
     "node": ">=0.4.7"
   },
   "dependencies": {
+    "querystring": ">= 0.1.x"
   },
   "devDependencies": {
   }

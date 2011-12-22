@@ -22,9 +22,14 @@ that's crazy easy to use in the third.  It's magic.
 
 ### put the middleware in your server
 
+    app.use(express.session);
     app.use(require('connect-browserid')({
-      secret: "yabba dabba do"
-    });
+      secret: "yabba dabba do",
+      audience: "https://example.com"
+    }.authUser());
+    app.use(app.router);
+
+This middleware must come after session but before router middlewares.
 
 ### throughout your code, req.user is the authenticated user
 
